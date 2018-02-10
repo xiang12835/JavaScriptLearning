@@ -1,4 +1,4 @@
-# JavaScriptLearn
+# JavaScriptLearning
 JavaScript语言学习
 
 # reference
