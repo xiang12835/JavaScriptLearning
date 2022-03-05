@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" type="text/css" href="css/960_12_col.css"/>
+    <style>
+        * {
+            font-family: Arial, Verdana, sans-serif;
+            color: #665544;
+        }
+
+        #logo {
+            /*background-color: #efefef;*/
+            /*margin-left: 20%;*/
+        }
+
+        #nav {
+            background-color: #50cc2b;
+            /*padding: 1px 0px 1px 0px;*/
+        }
+
+        #feature {
+            /*background-color: #efefef;*/
+            /*margin-top: 20px;*/
+            /*padding: 0px 0px 5px 0px;*/
+            width: 100%;
+        }
+
+        .article {
+            height: 200px;
+            text-align: center;
+            margin: 10px;
+        }
+
+        li {
+            display: inline;
+            padding: 5px;
+        }
+
+
+        #footer {
+            /*background-color: #efefef;*/
+            margin-top: 20px;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+<div class="container_12">
+
+    <div id="header" class="grid_12">
+        <div id="logo"><img src="image/logo.png"></div>
+        <div id="nav">
+            <ul>
+                <li><a href="">贷款</a></li>
+                <li><a href="">邮储类</a></li>
+                <li><a href="">理财类</a></li>
+                <li><a href="">行用卡</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="feature" class="grid_12">
+        <img src="image/feature.png" height="200" width="940">
+    </div>
+
+    <div class="article grid_3">
+        <img src="image/article.png" width="220" height="125"/>
+        <p><strong>我是标题1</strong></p>
+        <p>我是描述1</p>
+    </div>
+    <div class="article grid_3">
+        <img src="image/article.png" width="220" height="125"/>
+        <p><strong>我是标题2</strong></p>
+        <p>我是描述2</p>
+    </div>
+    <div class="article grid_3">
+        <img src="image/article.png" width="220" height="125"/>
+        <p><strong>我是标题3</strong></p>
+        <p>我是描述3</p>
+    </div>
+    <div class="article grid_3">
+        <img src="image/article.png" width="220" height="125"/>
+        <p><strong>我是标题4</strong></p>
+        <p>我是描述4</p>
+    </div>
+    <div class="article grid_3">
+        <img src="image/article.png" width="220" height="125"/>
+        <p><strong>我是标题5</strong></p>
+        <p>我是描述5</p>
+    </div>
+    <div class="article grid_3">
+        <img src="image/article.png" width="220" height="125"/>
+        <p><strong>我是标题6</strong></p>
+        <p>我是描述6</p>
+    </div>
+
+
+    <div id="footer" class="grid_12">
+        <p>&copy; Copyright 2019</p>
+    </div>
+
+</div><!-- .container_12 -->
+
+
+</body>
+</html>
